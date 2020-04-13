@@ -34,19 +34,19 @@ public:
 	Tree(int value);
 
 	Node* GetRoot();
-
+	//INSERTS THE NEW NODE IN A TREE
 	void InsertNode(int value);
-
+	//POSTORDER TRAVERSAL
 	std::string PostOrder();
-
+	//INORDER TRAVERSAL
 	std::string InOrder();
-
+	//PREORDER TRAVERSAL
 	std::string PreOrder();
-
+	//COUNT NODES
 	int CountNodes();
-
+	// COUNT EDGES
 	int CountEdges();
-
+	// FINDS THE HEIGHT OF THE TREE
 	int ShowHeight();
 
 	~Tree();
